@@ -1,8 +1,10 @@
 <html>
   <head>
-    <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+
     <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/jquery-3.2.1.min.js"></script>
   </head>
 <body>
   <div id="container">
@@ -16,7 +18,7 @@
         <span id="homeButton" class="glyphicon glyphicon-home"></span>
         <span id="addButton" class="glyphicon glyphicon-plus"></span>
       </div>
-      <div class="app screen1 home">
+      <div class="app active screen1 home">
         <div id="circleContainer">
           <div class="c"><img id="circle" src="./FuckinCircle.png" /></div>
         </div>
@@ -62,8 +64,8 @@
 
         </table>
         <div class="event e1">
-
-
+          <h3>Event Name</h3>
+          <h4>10:30am</h4>
         </div>
       </div>
       <div class="app screen3 month">
@@ -78,5 +80,17 @@
   </div>
   </div>
 </body>
+<script>
+$('#homeButton').click(function() {
+  $('.app.active').removeClass('active');
+  $('.home').addClass('active')
+});
+$('.c').click(function() {
+  $('.app.active').removeClass('active');
+  $('.day').addClass('active');
+});
+
+
+</script>
 
 </html>

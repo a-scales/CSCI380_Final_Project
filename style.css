@@ -39,10 +39,14 @@
 }
 
 .app {
+  display: none;
   margin-top: 50pt;
 }
+.app.active {
+  display: block;
+}
 .screen1 {
-  display: none;
+  /*display: none;*/
 }
 .screen2 {
 
@@ -103,11 +107,16 @@
   position: relative;
 }
 .e1 {
+  padding: 5pt;
   z-index: 0;
   height: 125pt;
   width: 80%;
-  right:0;
+  right:2;
   top: 100;
   position: absolute;
   background-color: red;
+  color: white;
+}
+h3 {
+  margin-top: 0 !important;
 }

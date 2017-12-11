@@ -202,3 +202,73 @@ h3 {
 }
 
 >>>>>>> zack
+
+
+#ADDmenuBar {
+  height: 50pt;
+  background-color: lightblue;
+  width: 100%;
+  padding-top: 20pt;
+  color: white;
+  padding-left: 5pt;
+  padding-right: 5pt;
+}
+#activityButton{
+font-size: 1.2em;
+  text-align=center;
+  height: 50pt;
+  background-color: skyblue;
+  width: 40pt;
+  padding-top: 10pt;
+  padding-bottom: 10pt;
+  margin-left: 20pt;
+  padding-left: 30pt;
+  padding-right: 30pt;
+  color: white;
+}
+#deadlineButton{
+  font-size: 1.2em;
+
+  padding-top: 10pt;
+  padding-bottom: 10pt;
+  margin-left: 20pt;
+  padding-left: 30pt;
+  padding-right: 30pt;
+  color: white;
+}
+
+#fields{
+  clear:both;
+  margin-top:20pt;
+  font-size: 1.2em;
+  font-weight: bold;
+  width: 110px;
+  text-align: right;
+  float:left;
+}
+
+#forms{
+	float:right;
+	margin-right:30pt;
+	margin-top: 3pt;
+	margin-bottom: 5pt;
+}
+input{
+margin-top:10pt;
+}
+
+
+#enterButton{
+clear:both;
+font-size: 1.1em;
+  text-align=center;
+  height: 50pt;
+  background-color: lightblue;
+  width: 40pt;
+  padding-top: 10pt;
+  padding-bottom: 10pt;
+  margin-left: 100pt;
+  padding-left: 30pt;
+  padding-right: 30pt;
+  color: white;
+}

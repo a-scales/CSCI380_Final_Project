@@ -129,6 +129,46 @@
       </div>
 
       <div class="app screen4 add">
+        <div id="menuBar">
+			<!-- <div><img id="home" src="./noun_842719_cc.svg" /></div> -->
+			<span id="activityButton">Activity</span>
+			<span id="deadlineButton">Deadline</span>
+      	</div>
+
+      	<div id="fields">
+			Name<br><br>Description<br><br>Date<br><br>
+			Start time<br><br>End time<br><br>Color<br><br>Alarm<br><br>Repeat<br>
+		</div>
+		<div id="forms"><br>
+
+			<input name="firstname" type="text"><br><br>
+			<textarea name="message" rows="1" cols="11"></textarea><br><br>
+			<input name="firstname" type="text"><br><br>
+			<input name="firstname" type="text"><br><br>
+			<input name="firstname" type="text"><br><br>
+			<select name="color">
+			  <option value="Red" selected>Red</option>
+			  <option value="Blue">Blue</option>
+			  <option value="Yellow">Yellow</option>
+			  <option value="Green">Green</option>
+			</select>
+			<br><br>
+			<form>
+  				  <input type="radio" name="gender" value="on" checked> ON
+				  <input type="radio" name="gender" value="off"> OFF
+			</form>
+			<br>
+			<select name="repeat">
+			  <option value="no" selected>No</option>
+			  <option value="Weekly">Weekly</option>
+			  <option value="Monthly">Monthly</option>
+			  <option value="Yearly">Yearly</option>
+			</select>
+			<br><br>
+
+		</div>
+		<br><br>
+		<span id="enterButton">Add</span>
       </div>
 
     </div>
@@ -148,6 +188,10 @@ $('#monthButton').click(function() {
   $('.app.active').removeClass('active');
   $('.month_v').addClass('active');
 })
+$('#addButton').click(function() {
+  $('.app.active').removeClass('active');
+  $('.add').addClass('active');
+});
 
 </script>
 

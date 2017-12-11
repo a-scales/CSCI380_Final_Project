@@ -134,7 +134,7 @@ h3 {
 }
 =======
 .month {
-    padding: 10px 10px;
+    padding: 20px 10px;
     width: 100%;
     background: #a9a9a9;
     text-align: center;
@@ -143,14 +143,14 @@ h3 {
 
 .month ul {
     margin: 0;
-    padding: 0;
+    padding:10;
 }
 
 .month ul li {
     color: black;
     font-size: 14px;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .month .prev {
@@ -165,7 +165,7 @@ h3 {
 
 .weekdays {
     margin: 0;
-    padding: 100px 0;
+    padding: 10px 0;
     background-color: #ddd;
 }
 

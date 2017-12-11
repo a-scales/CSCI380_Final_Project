@@ -76,6 +76,9 @@
   float: left;
   font-size: 25pt;
 }
+#monthButton {
+  font-size: 25pt;
+}
 #addButton {
   font-size: 25pt;
   float: right;

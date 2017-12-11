@@ -16,7 +16,7 @@
       <div id="menuBar">
         <!-- <div><img id="home" src="./noun_842719_cc.svg" /></div> -->
         <span id="homeButton" class="glyphicon glyphicon-home"></span>
-        Pylon Calendar
+        <span id="monthButton" class="glyphicon glyphicon-calendar"></span>
         <span id="addButton" class="glyphicon glyphicon-plus"></span>
       </div>
       <div class="app active screen1 home">
@@ -69,9 +69,9 @@
           <h4>10:30am</h4>
         </div>
       </div>
-      <div class="app screen3 month">
-			
-			<div class="month">      
+      <div class="app screen3 month_v">
+
+			<div class="month">
 			  <ul>
 				<li class="prev">&#10094;</li>
 				<li class="next">&#10095;</li>
@@ -92,7 +92,7 @@
 			  <li>Sun</li>
 			</ul>
 
-			<ul class="days">  
+			<ul class="days">
 			  <li>1</li>
 			  <li>2</li>
 			  <li>3</li>
@@ -125,9 +125,9 @@
 			  <li>30</li>
 			  <li>31</li>
 			</ul>
-			
+
       </div>
- 
+
       <div class="app screen4 add">
       </div>
 
@@ -144,7 +144,10 @@ $('.c').click(function() {
   $('.app.active').removeClass('active');
   $('.day').addClass('active');
 });
-
+$('#monthButton').click(function() {
+  $('.app.active').removeClass('active');
+  $('.month_v').addClass('active');
+})
 
 </script>
 

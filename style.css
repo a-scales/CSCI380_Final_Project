@@ -14,12 +14,13 @@
   margin-right: auto;
   top: 50%;
   transform: translateY(-50%);
-  background-color: #efefef;
+  background-color: #fff;
   width: 400;
   height: 600;
   position: absolute;
 }
 #topBar {
+  z-index: 10000;
   position: fixed;
   line-height: 15pt;
   width: 100%;
@@ -37,16 +38,18 @@
   height: 100%;
 }
 
-#app {
-
+.app {
+  margin-top: 50pt;
 }
 .screen1 {
   display: none;
 }
 .screen2 {
-  
+
 }
 #menuBar {
+  position: fixed;
+  z-index: 1;
   height: 50pt;
   background-color: lightblue;
   width: 100%;
@@ -76,4 +79,35 @@
   /*margin-right: auto;*/
   width: 100%;
   height: auto;
+}
+
+
+.day table {
+  width: 100%;
+}
+.day table tr td {
+  height: 50pt;
+}
+
+.day table tr .time {
+  width: 16%;
+
+  font-size: 9pt;
+}
+
+.day table tr .time_block {
+
+  width: 70%;
+}
+.day {
+  position: relative;
+}
+.e1 {
+  z-index: 0;
+  height: 125pt;
+  width: 80%;
+  right:0;
+  top: 100;
+  position: absolute;
+  background-color: red;
 }

@@ -35,6 +35,7 @@
   overflow: scroll;
   width: 100%;
   height: 100%;
+  background: #a9a9a9;
 }
 
 #app {
@@ -44,7 +45,7 @@
   display: none;
 }
 .screen2 {
-  
+  display: app screen3 month;
 }
 #menuBar {
   height: 50pt;
@@ -77,3 +78,69 @@
   width: 100%;
   height: auto;
 }
+
+.month {
+    padding: 10px 10px;
+    width: 100%;
+    background: #a9a9a9;
+    text-align: center;
+    ``
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: black;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+.weekdays {
+    margin: 0;
+    padding: 100px 0;
+    background-color: #ddd;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 11.6%;
+    color: #666;
+    text-align: center;
+}
+
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 11.6%;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size:14px;
+    color: #1e1e1e;
+}
+
+.days li .active {
+    padding: 5px;
+    background-color: lightblue;
+    color: white !important
+}
+

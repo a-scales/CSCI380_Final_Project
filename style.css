@@ -110,6 +110,9 @@
   width: 100%;
   height: auto;
 }
+.screen4 #fields {
+  margin-top: 50px;
+}
 
 <<<<<<< HEAD
 
@@ -213,45 +216,43 @@ h3 {
     color: white !important
 }
 
->>>>>>> zack
 
 
-#ADDmenuBar {
+/*>>>>>>> zack*/
+
+.themenu {
   height: 50pt;
-  background-color: lightblue;
   width: 100%;
-  padding-top: 20pt;
-  color: white;
-  padding-left: 5pt;
-  padding-right: 5pt;
+  background-color: lightblue;
+  display: block;
 }
+
 #activityButton{
-font-size: 1.2em;
-  text-align=center;
+  display: inline-block;;
+  font-size: 1.2em;
+  line-height: 50pt;
+  text-align:center;
   height: 50pt;
   background-color: skyblue;
-  width: 40pt;
-  padding-top: 10pt;
-  padding-bottom: 10pt;
-  margin-left: 20pt;
-  padding-left: 30pt;
-  padding-right: 30pt;
+  width: 100px;
+  margin-left: 65pt;
   color: white;
 }
 #deadlineButton{
   font-size: 1.2em;
-
-  padding-top: 10pt;
+  line-height: 50pt;
+  display: inline-block;
+  /*padding-top: 10pt;
   padding-bottom: 10pt;
   margin-left: 20pt;
   padding-left: 30pt;
-  padding-right: 30pt;
+  padding-right: 30pt;*/
   color: white;
 }
 
 #fields{
   clear:both;
-  margin-top:20pt;
+  /*margin-top:20pt;*/
   font-size: 1.2em;
   font-weight: bold;
   width: 110px;
@@ -265,22 +266,50 @@ font-size: 1.2em;
 	margin-top: 3pt;
 	margin-bottom: 5pt;
 }
-input{
-margin-top:10pt;
+input {
+  margin-top:10pt;
 }
 
 
 #enterButton{
-clear:both;
-font-size: 1.1em;
-  text-align=center;
-  height: 50pt;
+  clear:both;
+  font-size: 1.1em;
+  text-align:center;
+  line-height: 40pt;
+  height: 40pt;
   background-color: lightblue;
-  width: 40pt;
-  padding-top: 10pt;
-  padding-bottom: 10pt;
-  margin-left: 100pt;
-  padding-left: 30pt;
-  padding-right: 30pt;
+  width: 60pt;
+  margin-left: auto;
+  margin-right: auto;
   color: white;
+  margin-top: 10pt;
+}
+.addCONT {
+  /*margin-top: 50pt;*/
+  width: 100%;
+}
+.input {
+  clear: both;
+  height: 25pt;
+  width: 100%;
+  padding:10pt;
+}
+.input h4 {
+  line-height: 30pt;
+  width: 30%;
+  display: inline;
+}
+.input_field {
+  height: 25pt;
+  float: right;
+  margin-left: 10pt;
+  width: 60%;
+  display: block;
+}
+.input_field input {
+  /*float: right;*/
+  width: 100%;
+}
+.b {
+  display: inline-block;
 }

@@ -74,7 +74,7 @@
 
         </table>
         <div class="event e1">
-          <h3>Event Name</h3>
+          <h3>CSCI Final Exam</h3>
           <h4>10:30am</h4>
         </div>
       </div>
@@ -138,48 +138,63 @@
       </div>
 
       <div class="app screen4 add">
-        <div id="menuBar">
-			<!-- <div><img id="home" src="./noun_842719_cc.svg" /></div> -->
-			<span id="activityButton">Activity</span>
-			<span id="deadlineButton">Deadline</span>
-      	</div>
+        <div class="themenu">
+			   <div id="activityButton">Activity</div>
+			   <div id="deadlineButton">Deadline</div>
+       </div>
+        <div class="addCONT">
+        <div class="input">
+          <h4>Name</h4>
+          <div class="input_field"><input type="text"></div>
+        </div>
+        <div class="input">
+          <h4>Description</h4>
+          <div class="input_field"><input type="text"></div>
+        </div>
+        <div class="input">
+          <h4>Date</h4>
+          <div class="input_field"><input type="text"></div>
+        </div>
+        <div class="input">
+          <h4>Start Time</h4>
+          <div class="input_field"><input type="text"></div>
+        </div>
+        <div class="input">
+          <h4>End Time</h4>
+          <div class="input_field"><input type="text"></div>
+        </div>
+        <div class="input">
+          <h4>Color</h4>
+          <div class="input_field">			<select name="color">
+          			  <option value="Red" selected>Red</option>
+          			  <option value="Blue">Blue</option>
+          			  <option value="Yellow">Yellow</option>
+          			  <option value="Green">Green</option>
+          			</select></div>
+        </div>
+        <div class="input">
+          <h4>Alarm</h4>
+          <div class="input_field">
+             <div class="b"><label>ON</label><input type="radio" name="gender" value="on" checked></div>
+             <div class="b"><label>OFF</label><input type="radio" name="gender" value="off"></div>
+          </div>
+        </div>
+        <div class="input">
+          <h4>End Time</h4>
+          <div class="input_field">
+            <select name="repeat">
+      			  <option value="no" selected>No</option>
+      			  <option value="Weekly">Weekly</option>
+      			  <option value="Monthly">Monthly</option>
+      			  <option value="Yearly">Yearly</option>
+        			</select>
+            </div>
+        </div>
 
-      	<div id="fields">
-			Name<br><br>Description<br><br>Date<br><br>
-			Start time<br><br>End time<br><br>Color<br><br>Alarm<br><br>Repeat<br>
+      <div id="enterButton">Add</div> 
 		</div>
-		<div id="forms"><br>
 
-			<input name="firstname" type="text"><br><br>
-			<textarea name="message" rows="1" cols="11"></textarea><br><br>
-			<input name="firstname" type="text"><br><br>
-			<input name="firstname" type="text"><br><br>
-			<input name="firstname" type="text"><br><br>
-			<select name="color">
-			  <option value="Red" selected>Red</option>
-			  <option value="Blue">Blue</option>
-			  <option value="Yellow">Yellow</option>
-			  <option value="Green">Green</option>
-			</select>
-			<br><br>
-			<form>
-  				  <input type="radio" name="gender" value="on" checked> ON
-				  <input type="radio" name="gender" value="off"> OFF
-			</form>
-			<br>
-			<select name="repeat">
-			  <option value="no" selected>No</option>
-			  <option value="Weekly">Weekly</option>
-			  <option value="Monthly">Monthly</option>
-			  <option value="Yearly">Yearly</option>
-			</select>
-			<br><br>
-
-		</div>
-		<br><br>
-		<span id="enterButton">Add</span>
-      </div>
-
+    </div>
     </div>
   </div>
   </div>
